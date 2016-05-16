@@ -1,0 +1,32 @@
+.section-header {
+    cursor: pointer
+}
+
+.accordion-content {
+    display: none;
+    width: 100%;
+}
+
+.accordion-content.first {
+    display: block
+}
+
+.accordion-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.section-fieldtype,
+.section-fieldtype:first-of-type {
+    margin-bottom: 0!important;
+}
