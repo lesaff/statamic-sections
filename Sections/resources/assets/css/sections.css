@@ -1,4 +1,4 @@
-.section-header {
+.section-header, .nav-tabs a {
     cursor: pointer
 }
 
@@ -11,7 +11,7 @@
     display: block
 }
 
-.accordion-flex {
+.accordion-flex, .tab-flex {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -29,4 +29,19 @@
 .section-fieldtype,
 .section-fieldtype:first-of-type {
     margin-bottom: 0!important;
+}
+
+/* Tabs */
+.tab-content {
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.nav-tabs {
+    width: 100%;
+}
+
+.tab-pane .help-block {
+    padding: 10px 16px;
 }
