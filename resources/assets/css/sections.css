@@ -1,0 +1,47 @@
+.section-header, .nav-tabs a {
+    cursor: pointer
+}
+
+.accordion-content {
+    display: none;
+    width: 100%;
+}
+
+.accordion-content.first {
+    display: block
+}
+
+.accordion-flex, .tab-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.section-fieldtype,
+.section-fieldtype:first-of-type {
+    margin-bottom: 0!important;
+}
+
+/* Tabs */
+.tab-content {
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.nav-tabs {
+    width: 100%;
+}
+
+.tab-pane .help-block {
+    padding: 10px 16px;
+}
