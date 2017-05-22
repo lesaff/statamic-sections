@@ -44,7 +44,7 @@ $(document).ready(function() {
                     });
 
                     $(".tab-pane").each(function() {
-                        $(this).find('.form-group').wrapAll('<div class="tab-flex" />')
+                        $(this).children('.form-group').wrapAll('<div class="tab-flex" />')
                     });
 
                     // Wrap it with ul tag to form tabs nav
