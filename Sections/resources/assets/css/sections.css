@@ -1,7 +1,16 @@
-.section-header, .nav-tabs a {
-    cursor: pointer
+.section-header, .section-header label, .nav-tabs a, .nav-tabs label {
+    cursor: pointer !important
 }
 
+.section-fieldtype:hover label {
+  color: #3aa3e3;
+}
+
+.card, .publish-fields {
+  padding-bottom: 0;
+}
+
+/* Accordions */
 .accordion-content {
     display: none;
     width: 100%;
